@@ -1,0 +1,39 @@
+------------------ MAIN --------------------------
+implement scripting mode, uses global vars to keep track
+of the status.
+display hints on hover skills
+no hint from stun
+npc chat system
+npc quest system
+
+------------------ LOBBY ------------------------
+when lobby receive a game_start the current process
+should be killed and the new map loaded.
+
+Show whos connected to the game at the client.
+
+Show when the map changes.
+
+Broadcast on the LAN.
+
+Trigger reconnects when fails.
+
+----------------- BALANCE ------------------------
+
+---------------- CLASSES -------------------------
+
+---------------- GAMEPLAY ------------------------
+NPC, MOBS, BOSSES, STORY, QUESTS
+
+---------------- DEBUG ---------------------------
+log to file, log network to file
+upload log files to servers.
+
+--------------- GRAPHICS -------------------------
+
+--------------- CODING ---------------------------
+compact code, indent, format, simplify
+refactor code: split: classes, abilities, merge: statuses
+
+--------------- NETWORK ---------------------------
+p2xy spam - from medium detection in player.tickregen. should not trigger.

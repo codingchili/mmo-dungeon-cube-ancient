@@ -1,0 +1,368 @@
+<html>
+<head>
+<title> DungeonCube: ARENA - News</title>
+<style>
+body, th, tr, td, table
+{
+background: #090909;
+color: #ff0000;
+}
+
+IMG.manual 
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+IMG.download
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#dl
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 533px;
+    height: 74px;
+    margin-bottom: -10px;
+    background-image: url('dl.png');
+}
+
+#posts
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+pre
+{
+margin-left: 10px;
+margin-right: 10px;
+}
+
+#post
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+    //height: 125px;
+    margin-top: 30px;
+    border-size: 1px; 
+    border-style: solid;
+    border-color: #161616;
+    border-radius: 5px;
+    color: #CC3000;
+}
+
+#post-head
+{
+text-align: center;
+color: #606060;
+font-size: 16px;
+font-weight: bold;
+
+        color: #fff;
+        text-shadow: 0px 1px 0px #999;
+        font: 16px 'ChunkFiveRegular';
+}
+
+#dl:hover
+{
+    background-image: url('dl-hover.png');
+}
+
+</style>
+</head>
+<body>
+<IMG src="version.png" class="manual">
+<IMG src="BrandLogo.png" class="manual" style="margin-top:-50px;">
+<a href="/dungeon/data/Patcher.exe"><div id="dl" style="margin-top:10px;"></div></a>
+
+<div id="posts">
+
+<div id="post">
+<div id="post-head">
+<img src="sword_icon.png"> <br> Version 0.71!
+</div>
+</pre>
+Overview:
+- Fixes in the game, launcher and lobby are now live.
+- The patcher is now working as intended.
+- Balance changes have been added.
+<ul>
+<!--!<li>  Constitution</li>
+<ul>
+<li>Warrior: Modifier +28%</li>
+<li>Theif: Modifier +18%</li>
+</ul>
+<li>Strength</li>
+<ul>
+<li>Warrior: +40%</li>
+<li>Thief:   -20%</li>
+</ul>
+<li>Intelligence</li>
+<ul>
+<li>Mage: +5%</li>
+<li>Warrior: -30%</li>
+<li>Thief: -30%</li>
+</ul>
+<li>Dexterity</li>
+<ul>
+<li>Thief: +15%</li>
+</ul> !--!>
+<li>  Basic attack adjusted per Class.</li>
+<ul>
+<li>Thief: Now based on DEX. (Backstab: STR)</li>
+<li>Warrior: Based on STR.</li>
+<li>Mage: Based on INT.</li>
+</ul>
+<li>Spell Changes</li>
+<ul>
+<li>  Mage dagger no longer silenceable.</li>
+<li>  Stun spell not triggering - fixed.</li>
+</ul>
+</ul>
+
+<li>  Class preview added.</li>
+<li> Monster AI under development.</li>
+
+<br>Players should redownload the patcher from the above link.<br><br>
+
+//chili. - 2013-12-16
+</pre>
+</div>
+
+<div id="post">
+<div id="post-head">
+<img src="sword_icon.png"> <br> Stats and Balancing.
+</div>
+</pre>
+Here is the current stat balance, from now on the balancing will use relative values.
+
+<table border="1">
+<tr>
+<td></td>
+<th>CON</th>
+<th>STR</th>
+<th>DEX</th>
+<th>INT</th>
+<th>WIS</th>
+<th>MR</th>
+<th>PR</th>
+</tr>
+<tr>
+<td>Mage</th>
+<td>13.5</td>
+<td>0.96</td>
+<td>1.25</td>
+<td>7.2</td>
+<td>18.5</td>
+<td>0.92</td>
+<td>0.5</td>
+</tr>
+<tr>
+<th>Thief</th>
+<td>15.2</td>
+<td>1.15</td>
+<td>2.15</td>
+<td>4.95</td>
+<td>14.5</td>
+<td>0.5</td>
+<td>0.75</td>
+</tr>
+<tr>
+<th>Warrior</th>
+<td>21.0</td>
+<td>1.95</td>
+<td>1.25</td>
+<td>3.5</td>
+<td>12.0</td>
+<td>0.5</td>
+<td>1.25</td>
+</tr>
+</table>
+
+Modifiers and Effects, Reference sheet.
+<ul>
+  <li>CON</li>
+  <ul>
+    <li>Gives health per point.</li>
+    <li>Health regen increases.</li>
+    <li>[Heal]: Increased effect..</li> 
+  </ul>
+
+  <li>STR</li>
+  <ul>
+    <li>[Warrior-Basic]: attack damage.</li>
+    <li>[Backstab]: Increased damage.</li>
+    <li>[Basic-Thief] Thief ranged damage.</li>
+    <li>[Magedagger]: Increased damage.</li> 
+    <li>[Backstab]: Increased Damage.</li>
+    <li>[Telestrike]: Increased Duration.</li>
+    <li>[Jumpstrike]: Increased Damage.</li>
+    <li>[Passive: Mage]: Increases restored mana on-hit.</li>
+  </ul>
+
+  <li>DEX</li>
+  <ul>
+    <li>Increases movement speed.</li>
+    <li>Increases attack speed.</li>
+    <li>Adds physical resistance.</li> 
+    <li>[Poison Arrow]: Increased Duration.</li>
+    <li>[Backstab]: Increased Damage.</li>
+  </ul>
+
+  <li>INT</li>
+  <ul>
+    <li>[Stun, Slow, Chaos]: Increased Damage.</li>
+    <li>[Chaos]: Increased Heal.</li>
+    <li>[Heal]: Increases Heal Slightly.</li>
+    <li>[Basic Mage]: Increases damage.</li> 
+    <li>[Lifesteal] Increased heal, Increased damage.</li>
+    <li>[Hiddendagger]: Increased Damage.</li>
+    <li>[Stealth]: Increased Duration.</li>
+    <li>[Spellstrike]: Increased Damage.
+    <li>[Mightystrikes]: Increased Damage.
+    <li>[Shield]: Increased Hits.</li>
+  </ul>
+
+  <li>WIS</li>
+  <ul>
+    <li>Increased mana pool.</li>
+    <li>Increased mana regen.</li>
+    <li>Decreases cooldowns</li>
+  </ul>
+</ul>
+<br><br>
+Additional class bonuses:
+- Warrior has increased haste duration.
+- Mage has decreased cooldowns and restores mana on-hit.
+- Thief has invisibility and backstab.
+
+
+<br><br>
+
+//chili. - 2013-12-16
+</pre>
+</div>
+
+<div id="post">
+<div id="post-head">
+<img src="sword_icon.png"> <br> Version 0.7!
+</div>
+</pre>
+A new version has been released, featuring new player models and
+some updated graphics. A few balance fixes have also been added
+and minor improvements have been made to the patcher and lobby.
+The warrior jumpstrike attack is still broken, a fix is soon<br>
+to be awaited. <br>
+<br>
+Players should redownload the patcher from the above link.<br><br>
+
+//chili. - 2013-11-15
+</pre>
+</div>
+
+<div id="post">
+<div id="post-head">
+<img src="sword_icon.png"> <br> New Version
+</div>
+</pre>
+The version 6 has gone live sucessfully. Many bugfixes and improvements
+have been incorporated. In this latest release the Patcher was updated, 
+it will now be more responsive. Small patches are planned for the lobby,
+the lobby should soon send multiple attempts for connection and also
+provide more feedback. 
+<br><br>
+Big changes are planned for the game, a gamemode with scoring and round
+winners. Mobs and bosses should be implemented, Player AI's should be 
+refined and tuned to scale better. Player AI's should also make use of
+attributes, to make them really strong. The warrior AI is having a huge
+nerf while we're buffing the thief AI and leaving the mage as is. 
+<br><br>
+Players should redownload the patcher from the above link.
+<br><br>
+//chili. - 2013-09-01
+</pre>
+</div>
+
+<div id="post">
+<div id="post-head">
+<img src="sword_icon.png"> <br> More Shiny Stuff
+</div>
+</pre>
+More shiny stuff have been added. Arts such as a brand new playable
+map, 15 fresh graphic effects. Player classes have been added, including
+the Mage, Thief and Warrior. Each wielding the power of 5 unique abilities
+and 3 basic abilities (basic attack, heal & haste). A MAP Editor was added
+to the Toolset. Major changes and bugfixes including multiplayer support,
+optimizations and Unicode support. 
+<br><br>
+This version will come live week 20, The BETA Test will also begin
+after this release has gone live, labeled as 'Beta 0.6', "EnterTheDungeon".
+<br><br>
+//chili. - 2013-05-14
+</pre>
+</div>
+
+
+<div id="post">
+<div id="post-head">
+<img src="sword_icon.png"> <br> Major Changes
+</div>
+</pre>
+Major changes has been committed. The suite was updated with
+new tools: Game Lobby, Patcher & a KeyGen. Major changes to
+game art, large engine improvements, art assets updated.
+<br><br>
+A Bandwidth of 3KB/s upstream is recommended (8 player).
+A Bandwidth of 30KB/s downstream is recommended (8 player).
+A Processor of 650Mhz Dual or 925Mhz Single
+Integrated Graphics With Support for any of the
+following, DirectX7, DX8, DX9, DX10, DX11 or OpenGL 2.0
+<br><br>
+The current release suffers from delays on network
+play, this is intended UNTIL the post-BETA patch.
+The delays will be disabled by flow reverse. ;-)
+
+<br><br>
+//chili. - 2013-05-08
+</pre>
+</div>
+
+
+<div id="post">
+<div id="post-head">
+<img src="sword_icon.png"> <br> First Version
+</div>
+</pre>
+The first version compiled for win32. All is running well.
+This version is released as 'Pre-ALPHA 0.5', codename "JustGrass".
+<br><br>
+//chili. - 2013-04-30
+</pre>
+</div>
+
+<div id="post">
+<div id="post-head">
+<img src="sword_icon.png"> <br> Website Launched
+</div>
+</pre>
+The website was launched. - 2013-04-24
+<br><br>
+//chili. 
+</pre>
+</div>
+
+
+</div>
+<IMG src="Footer.png" class="manual">
+</body>
+</html>
