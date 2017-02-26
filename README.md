@@ -20,7 +20,7 @@ The project features the following!
 * Lobby for chat and map selection
 * A single game mode (kill or be killed!)
 * 3 playable classes with 5 unique abilities each!
- * __mage* (spells with slow and stun!)
+ * __mage__ (spells with slow and stun!)
  * __thief__ (poison, stealth and backstab!)
  * __warrior__ (shield, teleport and health-based dmg!)
 * Patcher for downloading updates
