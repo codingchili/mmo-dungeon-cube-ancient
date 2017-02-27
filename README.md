@@ -1,4 +1,4 @@
-# mmo-dungeon-cube-legacy
+# mmo-dungeon-cube-ancient
 
 ##### Background
 The first iteration of the MMO project! 
